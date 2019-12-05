@@ -9,6 +9,8 @@
 
     <!-- We link our html to the Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+
 
 </head>
 
@@ -18,21 +20,22 @@
     <div class="container">
 
         <!-- Section 1: Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;" >
 
             <!-- Our brand / logo -->
-            <a class="navbar-brand" href="#">Sudar Meruva</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <h2 class="navbar-brand text-white" style="background-color: #1D6768;">Sudar Meruva</h2>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- Collapsible button -->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ml-auto">
 
                     <!-- The links of our navbar -->
-                    <li class="nav-item active">
+                    <!-- <li class="nav-item active">
                         <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
                     </li>
 
@@ -42,7 +45,17 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                    </li> -->
+
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">About <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+
+                    </div>
+
+
 
                 </ul>
             </div>
@@ -54,11 +67,11 @@
             <!-- First Row -->
             <div class="row">
                 <div class="col-lg-9">
-                        <!-- <div> -->
+                    <!-- <div> -->
                     <div class="row">
                         <!-- First (and only column) -->
                         <div class="col-md-12">
-                            <h2> About Me</h2>
+                            <h2 style="text-color: #1D6768;"> About Me</h2>
                             <hr class="line_class">
 
                         </div>
@@ -69,7 +82,7 @@
                         <!-- First of two columns -->
                         <div class="col-md-6">
 
-                            <img src="assets\images\sudar.JPG" alt="Sudar Meruva" height="150" width="150">
+                            <img src="assets\images\sudar.JPG" alt="Sudar Meruva" height="300" width="300">
                         </div>
 
                         <!-- Second of two columns -->
@@ -91,11 +104,6 @@
                                 Manager.
                             </P>
 
-                            <p>Built a high-performance team, started ESD BI & ESD NDW Teams, established Offshore
-                                Development
-                                teams and saved
-                                over $20M over 8 years.
-                            </P>
 
                         </div>
                     </div>
@@ -103,6 +111,12 @@
                     <div class="row">
                         <!-- First (and only column) -->
                         <div class="col-md-12">
+
+                            <p>Built a high-performance team, started ESD BI & ESD NDW Teams, established Offshore
+                                Development
+                                teams and saved
+                                over $20M over 8 years.
+                            </P>
 
                             <p>Team Transformation - Lead Waterfall to Agile Scrum transformation, Windows -> Web ->
                                 Responsive
